@@ -27,11 +27,12 @@ const App = () => {
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl font-bold">Crypto Tracker</h1>
           <button
-            onClick={toggleDarkMode}
-            className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
-          >
-            Toggle {darkMode ? 'Light' : 'Dark'} Mode
-          </button>
+         onClick={toggleDarkMode}
+         className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
+         >
+          {darkMode ? '🌞 Light Mode' : '🌙 Dark Mode'}
+         </button>
+
         </div>
 
         <input
